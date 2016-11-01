@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+     Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="File Metadata Microservice">
+    <meta name="author" content="J. Steve Martinez">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="/public/img/jsm-icon.png">
+    <link rel="apple-touch-icon" href="/public/img/jsm-icon.png">
+    <title>File Metadata Microservice</title>
+    <link href="/public/css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>freeCodeCamp</h1>
+        <h2>API Basejump: File Metadata Microservice</h2>
+        <div id='stories'>
+            <h3>User stories:</h3>
+            <ol>
+                <li>I can submit a FormData object that includes a file upload.</li>
+                <li>When I submit something, I will receive the file size in bytes within the JSON response</li>
+            </ol>
+        </div>
+        <div id="form">
+            <h2>Add a File</h2>
+            <div>
+                <form id="myForm" action="/" method="post" enctype="multipart/form-data">
+                    <input type="file" name="myFile" id="myFile">
+                    <input type="submit" name="submit" value="Submit" id="submit">
+                </form>
+                <div class="alert"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="/public/img/clementine_150.png" />
+        <br />
+        <p class="clementine-text">Powered by <a href="http://www.clementinejs.com/versions/fcc.html">Clementine.js</a></p>
+    </div>
+    <script type="text/javascript" src="/controllers/clickController.client.js"></script>
+</body>
+
+</html>

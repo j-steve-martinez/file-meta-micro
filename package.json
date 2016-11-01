@@ -1,0 +1,29 @@
+{
+  "name": "file-meta-micro",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": "",
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Multer",
+    "Node",
+    "javascript"
+  ],
+  "author": "J. Steve Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.0.42",
+    "multer": "1.2.0"
+  }
+}
